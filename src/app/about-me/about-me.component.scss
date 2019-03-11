@@ -65,7 +65,9 @@ $primary-bg: #303030;
 		  padding-bottom:8px;
 	  }
 	  &.text {
-		height:auto;		  
+		height:auto;	
+		text-align: center;
+		p,h3{text-align: left}	  
 	  }
     }
   }
