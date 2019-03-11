@@ -1,14 +1,21 @@
-.section {
-	padding:16px;
-	h3{
-		border-bottom: 1px solid #4e4e4e;
-		padding-bottom:8px;
+.lab-container{
+	> p{
+		margin-left:16px;
+		margin-right:16px;
 	}
-	&.text {
-	  height:auto;
-	}
-	a,a:visited{
-		color:white;
-		text-decoration: none;
-	}
-  }
+
+	.section {
+		padding:16px;
+		h3{
+			border-bottom: 1px solid #4e4e4e;
+			padding-bottom:8px;
+		}
+		&.text {
+		  height:auto;
+		}
+		a,a:visited{
+			color:white;
+			text-decoration: none;
+		}
+	  }
+}
