@@ -1,0 +1,68 @@
+.skills-container{
+	p {
+		margin-left:16px;
+		margin-right:16px;
+
+	}
+	h3 {
+		font-size:1.0em;
+		border-bottom: 1px solid #4e4e4e;
+		padding-bottom:8px;
+		margin-left:16px;
+		margin-right:16px;
+	}
+	.skill-level-container{
+		width: 65vw;
+		display: inline-block;
+	}
+	
+	.skill-icon{
+		font-size:0.6em;
+		background-repeat: no-repeat;
+		background-position: left 0px;
+		width: 10vw;
+		height: 30px;
+		padding-left: 40px;
+		padding-top: 5px;
+		background-size: 30px;
+		margin-left: 20px;
+		display: inline-block;
+		margin-right: 16px;
+		vertical-align: top;
+		/* border: 1px solid green; */
+		
+		&.android{ background-image:url("../../assets/skills/android-svgrepo-com.svg"); }
+		&.angularjs{ background-image:url("../../assets/skills/angularjs.svg"); background-size: 60px; background-position-y: -5px; background-position-x: -15px;}
+		&.angular{ background-image:url("../../assets/skills/Angular_full_color_logo.svg"); }
+		&.php{ background-image:url("../../assets/skills/Antu_php.svg"); }
+		&.apple{ background-image:url("../../assets/skills/Apple_Computer_Logo_rainbow.svg"); }
+		&.bower{ background-image:url("../../assets/skills/bower-logo.svg"); }
+		&.csharp{ background-image:url("../../assets/skills/csharp.svg"); }
+		&.css3{ background-image:url("../../assets/skills/CSS3_logo_and_wordmark.svg"); background-size: 23px; background-position-x: 3px;}
+		&.docker{ background-image:url("../../assets/skills/Docker.svg"); }
+		&.flash{ background-image:url("../../assets/skills/flashplayer_app_RGB.svg"); }
+		&.gulp{ background-image:url("../../assets/skills/Gulp.js_Logo.svg"); }
+		&.heroku{ background-image:url("../../assets/skills/heroku.svg"); }
+		&.html5{ background-image:url("../../assets/skills/HTML5_logo_and_wordmark.svg"); }
+		&.ionic{ background-image:url("../../assets/skills/ionic.svg"); }
+		&.jenkins{ background-image:url("../../assets/skills/Jenkins_logo.svg"); }
+		&.jquery{ background-image:url("../../assets/skills/jquery.svg"); }
+		&.cordova{ background-image:url("../../assets/skills/logo-cordova.svg"); }
+		&.dotnet{ background-image:url("../../assets/skills/netframework.svg"); }
+		&.node{ background-image:url("../../assets/skills/Node.js_logo.svg"); }
+		&.npm{ background-image:url("../../assets/skills/Npm-logo.svg"); }
+		&.python{ background-image:url("../../assets/skills/Python-logo-notext.svg"); }
+		&.react{ background-image:url("../../assets/skills/React-icon.svg"); }
+		&.unity{ background-image:url("../../assets/skills/unity-3d-vector-icon-logo.svg"); }
+		&.javascript{ background-image:url("../../assets/skills/Unofficial_JavaScript_logo_2.svg"); }
+		&.webpack{ background-image:url("../../assets/skills/webpack.svg"); }
+		&.windows-phone{ background-image:url("../../assets/skills/windows-phone.svg")	; }
+		&.sqlite{ background-image:url("../../assets/skills/Sqlite-square-icon.svg")}
+		&.sqlserver{ background-image:url("../../assets/skills/logo-sql-server.svg")}
+		&.postgresql{ background-image:url("../../assets/skills/Postgresql_elephant.svg")}
+		&.mysql{ background-image:url("../../assets/skills/mysql-icon.svg")}
+		&.oracle{ background-image:url("../../assets/skills/oracle.svg")}
+		&.firebird{ background-image:url("../../assets/skills/Firebird_logo.svg")}
+		&.mongodb	{ background-image:url("../../assets/skills/Antu_mongodb.svg")}
+	}
+}

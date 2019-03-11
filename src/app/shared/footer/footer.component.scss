@@ -1,0 +1,19 @@
+@import '../../component.base.scss';
+
+
+.footer {
+	padding: 10px 0;
+	background-color: $accent;
+	a,a:visited{
+		color:white;
+		text-decoration: none;
+	}
+	a:first-child{
+		margin-top:5px;
+		margin-left:16px;
+	}
+	
+	.mat-icon {
+		margin-right: 5px
+	}
+}

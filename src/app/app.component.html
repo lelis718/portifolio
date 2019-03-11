@@ -1,0 +1,19 @@
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav [mode]="over">
+      <main-menu (menuItemClick)="sidenav.close();"></main-menu>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill fxLayout="column">
+      <mat-toolbar color="primary" fxFlexAlign="baseline">
+        <div fxHide.gt-xs>
+          <button mat-icon-button (click)="sidenav.toggle();">
+            <mat-icon>menu</mat-icon>
+          </button>
+        </div>
+        <main-menu [sideMenu]="false"></main-menu>
+      </mat-toolbar>
+      <main fxFlex="grow">
+        <router-outlet></router-outlet>
+      </main>
+      <footer-contact></footer-contact>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

@@ -1,0 +1,71 @@
+@import '~@angular/material/theming';
+
+$theme_primary:(
+	50: #5e5e5e,
+	100: #515151,
+	200: #444444,
+	300: #373737,
+	400: #2b2b2b,
+	500: #1e1e1e,
+	600: #111111,
+	700: #040404,
+	800: #000000,
+	900: #000000,
+	A100: #6a6a6a,
+	A200: #777777,
+	A400: #848484,
+	A700: #000000
+);
+$theme_accent:(
+	50: #001e33,
+	100: #002e4d,
+	200: #003d66,
+	300: #004c80,
+	400: #005b99,
+	500: #006bb3,
+	600: #0089e6,
+	700: #0098ff,
+	800: #1aa3ff,
+	900: #33adff,
+	A100: #0089e6,
+	A200: #007acc,
+	A400: #006bb3,
+	A700: #4db7ff
+);
+$theme_warn:(
+	50: #fac2c2,
+	100: #f8abab,
+	200: #f79393,
+	300: #f57b7b,
+	400: #f36464,
+	500: #f14c4c,
+	600: #ef3434,
+	700: #ed1d1d,
+	800: #df1111,
+	900: #c71010,
+	A100: #fcdada,
+	A200: #fef2f2,
+	A400: #ffffff,
+	A700: #b00e0e
+);
+
+$theme_background:(
+	50: #646467,
+	100: #57575a,
+	200: #4b4b4d,
+	300: #3e3e40,
+	400: #323233,
+	500: #252526,
+	600: #181819,
+	700: #0c0c0c,
+	800: #000000,
+	900: #000000,
+	A100: #707074,
+	A200: #7d7d80,
+	A400: #8a8a8d,
+	A700: #000000
+);
+
+$custon-typography: mat-typography-config($font-family:'"Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace');
+
+$theme: mat-dark-theme($theme_primary, $theme_accent, $theme_warn);

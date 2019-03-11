@@ -1,0 +1,10 @@
+.section {
+	padding:16px;
+	h3{
+		border-bottom: 1px solid #4e4e4e;
+		padding-bottom:8px;
+	}
+	&.text {
+	  height:auto;		  
+	}
+  }

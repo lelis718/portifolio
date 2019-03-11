@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@import 'colors.scss';
+
+
+
+@include mat-core($custon-typography);
+@include angular-material-theme($theme);
+
+html, body {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	box-sizing: border-box;
+	height: 100%;
+	margin: 0;
+ }
