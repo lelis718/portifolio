@@ -1,3 +1,9 @@
+# Version 1.0.2
+
+Fixed Menu Buttton
+
+Added Lab Content (React Shooter)
+
 # Version 1.0.1
 
 Fixed image from menu, spacing at lab page and changelog
