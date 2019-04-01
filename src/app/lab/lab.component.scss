@@ -18,4 +18,15 @@
 			text-decoration: none;
 		}
 	  }
+	  
+	  .work-image{
+		  display:block;
+		  width:100%;
+		  img{
+			  width:50vw;
+			  display:block;
+			  margin-left:auto;
+			  margin-right:auto;
+		  }
+	  }
 }
