@@ -1,3 +1,7 @@
+# Version 1.0.3
+
+Added Lab Content (Estradas do Medo)
+
 # Version 1.0.2
 
 Fixed Menu Buttton
