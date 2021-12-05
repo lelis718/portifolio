@@ -31,6 +31,7 @@
 		vertical-align: top;
 		/* border: 1px solid green; */
 		
+		&.java{ background-image:url("../../assets/skills/java.png"); background-size: 30px;  }
 		&.android{ background-image:url("../../assets/skills/android-svgrepo-com.svg"); }
 		&.angularjs{ background-image:url("../../assets/skills/angularjs.svg"); background-size: 60px; background-position-y: -5px; background-position-x: -15px;}
 		&.angular{ background-image:url("../../assets/skills/Angular_full_color_logo.svg"); }

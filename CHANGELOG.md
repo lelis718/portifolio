@@ -1,3 +1,8 @@
+# Version 1.1.2
+
+Updated Skills
+Added htaccess for project
+
 # Version 1.1.1
 
 Updated Work
