@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SkillLevelBarComponent implements OnInit {
 
-  @Input() level:number;
+  @Input() level:string = "";
   
   constructor() { }
 

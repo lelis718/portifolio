@@ -6,7 +6,7 @@ import { Directive, OnInit, ElementRef, NgZone } from '@angular/core';
 export class ImageScrollerDirective implements OnInit {
 	
 	constructor(private el:ElementRef, private ngZone:NgZone) { }
-	private componentSize:number;
+	private componentSize:number = 0;
 	private image1Elm:any;
 	private image2Elm:any;
 	private container:any;
