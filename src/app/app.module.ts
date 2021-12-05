@@ -15,6 +15,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ImageScrollerDirective } from './shared/image-scroller.directive';
 import { SkillLevelBarComponent } from './shared/skill-level-bar/skill-level-bar.component';
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
 	declarations: [
@@ -35,7 +36,8 @@ import { SkillLevelBarComponent } from './shared/skill-level-bar/skill-level-bar
 		AngularMaterialModule,
 		BrowserAnimationsModule,
 		BrowserModule,
-		AppRoutingModule
+		AppRoutingModule,
+    MatIconModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

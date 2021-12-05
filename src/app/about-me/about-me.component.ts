@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutMeComponent implements OnInit {
   
-  public xpYears:number;
+  public xpYears:number = 0;
   constructor() { }
 
   ngOnInit() {

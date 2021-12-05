@@ -1,3 +1,7 @@
+# Version 1.1.0
+
+Updated Angular and related packages
+
 # Version 1.0.3
 
 Added Lab Content (Estradas do Medo)
