@@ -1,3 +1,7 @@
+# Version 1.1.1
+
+Updated Work
+
 # Version 1.1.0
 
 Updated Angular and related packages
