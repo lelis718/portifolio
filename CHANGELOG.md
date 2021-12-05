@@ -1,3 +1,12 @@
+# Version 1.1.2
+
+Updated Skills
+Added htaccess for project
+
+# Version 1.1.1
+
+Updated Work
+
 # Version 1.1.0
 
 Updated Angular and related packages
